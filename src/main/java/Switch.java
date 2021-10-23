@@ -28,6 +28,7 @@ public class Switch {
             default:
                 System.out.println("Day of week not found, try again with today day of week");
                 String displayName = LocalDate.now().getDayOfWeek().name();
+                translateDayOfWeekOld(displayName);
         }
     }
 }
